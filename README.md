@@ -2,6 +2,8 @@
 
 This is a Google Sheets-based tool developed at **Xhipment** to automate the calculation of Full Truckload (FTL) freight rates within the United States, using vendor-provided rate cards.
 
+👉 **View or make a copy of the live project here:**  
+[Port of Discharge Estimator – Google Sheet](https://docs.google.com/spreadsheets/d/10_1qE0pMnhLjszeMOwGOySFXNiJ8njFLRWPW_WeS7Vs/edit?usp=sharing)
 
 ## 📌 Overview
 
