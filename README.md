@@ -42,7 +42,7 @@ The tool enables the **Customer Success** team to quickly generate accurate FTL 
   - Ensures quotes are archived for future reference and internal tracking
  
 
-## 🧰 Tech Stack
+## 🛠 Tech Used
 
 - Google Sheets
 - Google Apps Script
