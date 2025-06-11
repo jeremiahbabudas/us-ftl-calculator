@@ -2,13 +2,11 @@
 
 This is a Google Sheets-based tool developed at **Xhipment** to automate the calculation of Full Truckload (FTL) freight rates within the United States, using vendor-provided rate cards.
 
----
 
 ## 📌 Overview
 
 The tool enables the **Customer Success** team to quickly generate accurate FTL shipping quotes by entering shipment details like pallet count, volume, weight, and ZIP codes for pickup and delivery. The system uses Google Apps Script to calculate distance and apply vendor-specific pricing rules.
 
----
 
 ## ✨ Features
 
@@ -29,8 +27,13 @@ The tool enables the **Customer Success** team to quickly generate accurate FTL 
 - 💰 **Automated Pricing Logic**:
   - Uses pre-configured **vendor rate cards**
   - Calculates total cost based on shipment size and distance
+    
+- 🗂️ **Quote Archiving Script**:
+  - A **"Save Quote" button** triggers a script that copies the completed sheet
+  - The sheet is saved to a **repository folder** on the company Google Drive
+  - The saved sheet is automatically named using the **Opportunity ID** entered by the user
+  - Ensures quotes are archived for future reference and internal tracking
 
----
 
 ## 🧰 Tech Stack
 
@@ -39,7 +42,6 @@ The tool enables the **Customer Success** team to quickly generate accurate FTL 
 - Google Maps API (for distance)
 - Internal rate card database (Google Sheets)
 
----
 
 ## 🎯 Impact
 
