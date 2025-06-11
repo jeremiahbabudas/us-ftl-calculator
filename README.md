@@ -12,7 +12,7 @@ The tool enables the **Customer Success** team to quickly generate accurate FTL 
 ## 📁 Files
 
 - `distanceCalculator.gs` – Google Apps Script code containing core distance and caching functions
-- `scrapePorts.gs` – Google Apps Script code that scrapes port data from Wikipedia and populates a Google Sheet with port rankings, names, states, and trade statistics.
+- `storeFTLQuote.gs` – Google Apps Script that copies a completed quote sheet to a central repository, naming it using the Opportunity ID for easy reference and storage.
 
 
 ## ✨ Features
