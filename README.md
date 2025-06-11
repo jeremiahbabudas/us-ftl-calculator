@@ -35,6 +35,11 @@ The tool enables the **Customer Success** team to quickly generate accurate FTL 
   - The sheet is saved to a **repository folder** on the company Google Drive
   - The saved sheet is automatically named using the **Opportunity ID** entered by the user
   - Ensures quotes are archived for future reference and internal tracking
+ 
+## 📁 Files
+
+- `distanceCalculator.gs` – Google Apps Script code containing core distance and caching functions
+- `scrapePorts.gs` – Google Apps Script code that scrapes port data from Wikipedia and populates a Google Sheet with port rankings, names, states, and trade statistics.
 
 
 ## 🧰 Tech Stack
