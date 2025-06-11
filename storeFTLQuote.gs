@@ -1,11 +1,11 @@
 function copySheetToRepository() {
-  var sourceSpreadsheetId = '18Y1LDaJWo6hHyH6v9jcAFKj3ApqsoyxHc2AhwOh0cmQ';
-  var destinationSpreadsheetId = '1PIAqBNw1A-Zgadk7egVZxkdJ-tqnXAZXJSYtDd1qI18';
+  var sourceSpreadsheetId = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+  var destinationSpreadsheetId = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 
   var sourceSpreadsheet = SpreadsheetApp.openById(sourceSpreadsheetId);
   var destinationSpreadsheet = SpreadsheetApp.openById(destinationSpreadsheetId);
   var sourceSheet = sourceSpreadsheet.getSheetByName('Calculator');
-  var newSheetName = sourceSheet.getRange('B19').getValue();
+  var newSheetName = sourceSheet.getRange('B6').getValue();
 
   var newSheet = destinationSpreadsheet.insertSheet(newSheetName);
   var sourceRange = sourceSheet.getDataRange();
