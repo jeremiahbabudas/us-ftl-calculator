@@ -1,6 +1,6 @@
 function copySheetToRepository() {
   var sourceSpreadsheetId = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
-  var destinationSpreadsheetId = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+  var destinationSpreadsheetId = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'; #this sheet does not exist anymore    
 
   var sourceSpreadsheet = SpreadsheetApp.openById(sourceSpreadsheetId);
   var destinationSpreadsheet = SpreadsheetApp.openById(destinationSpreadsheetId);
