@@ -9,6 +9,11 @@ This is a Google Sheets-based tool developed at **Xhipment** to automate the cal
 
 The tool enables the **Customer Success** team to quickly generate accurate FTL shipping quotes by entering shipment details like pallet count, volume, weight, and ZIP codes for pickup and delivery. The system uses Google Apps Script to calculate distance and apply vendor-specific pricing rules.
 
+## 📁 Files
+
+- `distanceCalculator.gs` – Google Apps Script code containing core distance and caching functions
+- `scrapePorts.gs` – Google Apps Script code that scrapes port data from Wikipedia and populates a Google Sheet with port rankings, names, states, and trade statistics.
+
 
 ## ✨ Features
 
@@ -36,11 +41,6 @@ The tool enables the **Customer Success** team to quickly generate accurate FTL 
   - The saved sheet is automatically named using the **Opportunity ID** entered by the user
   - Ensures quotes are archived for future reference and internal tracking
  
-## 📁 Files
-
-- `distanceCalculator.gs` – Google Apps Script code containing core distance and caching functions
-- `scrapePorts.gs` – Google Apps Script code that scrapes port data from Wikipedia and populates a Google Sheet with port rankings, names, states, and trade statistics.
-
 
 ## 🧰 Tech Stack
 
