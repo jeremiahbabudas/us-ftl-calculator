@@ -56,4 +56,6 @@ The tool enables the **Customer Success** team to quickly generate accurate FTL 
 - Improved efficiency for the **Customer Success** team
 - Enabled standardized and scalable pricing calculations
 
----
+
+## 📷 Screenshots
+![FTL Calculator](FTL%20Calculator.png)
